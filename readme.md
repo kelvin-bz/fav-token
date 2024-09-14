@@ -47,16 +47,26 @@ fav-token eth
 
 You can fetch prices for multiple tokens (up to 10) in a single command:
 
+```bash
+fav-token btc eth sol bnb etc ada arb op bch ltc xlm xrp
+```
+
 Example output: 
 ```bash
-
-| Crypto      | Price (USD) | 24h Change (%) |
-+-------------+-------------+----------------+
-| Bitcoin     | $60335.00   | 4.10%          |
-| Ethereum    | $2431.05    | 3.06%          |
-| Solana      | $139.46     | 3.50%          |
-| Binancecoin | $556.16     | 2.29%          |
-+-------------+-------------+----------------+
++------------------+-------------+----------------+
+| Crypto           | Price (USD) | 24h Change (%) |
++------------------+-------------+----------------+
+| Bitcoin          | $59735.00   | 3.32%          |
+| Ethereum         | $2416.70    | 2.78%          |
+| Solana           | $136.77     | 3.28%          |
+| Binancecoin      | $551.14     | 1.24%          |
+| Ethereum-classic | $18.61      | 1.87%          |
+| Cardano          | $0.35       | 0.50%          |
+| Arbitrum         | $0.53       | 1.87%          |
+| Optimism         | $1.54       | 1.92%          |
+| Bitcoin-cash     | $329.43     | 0.35%          |
+| Litecoin         | $65.80      | 4.15%          |
++------------------+-------------+----------------+
 ```
 
 
