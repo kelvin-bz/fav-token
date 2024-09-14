@@ -1,7 +1,7 @@
 {
   "name": "fav-token",
   "version": "1.0.0",
-  "description": "CLI tool for cryptocurrency prices with auto-completion",
+  "description": "A command-line tool for quick cryptocurrency price checks and token suggestions",
   "main": "cli.js",
   "bin": {
     "fav-token": "./cli.js"
