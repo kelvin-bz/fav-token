@@ -35,16 +35,20 @@ To get the current price for a specific token:
 ```bash
 fav-token eth
 ```
-
+```bash
 +----------+-------------+----------------+
 | Crypto   | Price (USD) | 24h Change (%) |
 +----------+-------------+----------------+
 | Ethereum | $2432.45    | 3.14%          |
 +----------+-------------+----------------+
+```
 
 ### Fetch Multiple Token Prices
 
 You can fetch prices for multiple tokens (up to 10) in a single command:
+
+Example output: 
+```bash
 
 | Crypto      | Price (USD) | 24h Change (%) |
 +-------------+-------------+----------------+
@@ -53,6 +57,7 @@ You can fetch prices for multiple tokens (up to 10) in a single command:
 | Solana      | $139.46     | 3.50%          |
 | Binancecoin | $556.16     | 2.29%          |
 +-------------+-------------+----------------+
+```
 
 
 ## Requirements
